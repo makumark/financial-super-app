@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 
-st.set_page_config(page_title="KFintech Enterprise Suite v7.2", layout="wide", initial_sidebar_state="expanded")
+st.set_page_config(page_title="Enterprise Suite v7.2", layout="wide", initial_sidebar_state="expanded")
 
 # === ENTERPRISE BANKING CSS ===
 st.markdown("""
@@ -24,7 +24,7 @@ st.markdown("""
 # === CLEAN HEADER ===
 st.markdown("""
 <div style='text-align: center; padding: 2rem; background: linear-gradient(135deg, #f8fafc, #e2e8f0); border-radius: 20px;'>
-    <h1 class="header-main">🏦 KFintech Enterprise Financial Suite v7.2</h1>
+    <h1 class="header-main">🏦 Enterprise Financial Suite v7.2</h1>
     <p class="subheader-main">Madhu Kumar | AI Business Analyst | Production Banking Platform</p>
 </div>
 """, unsafe_allow_html=True)
@@ -233,7 +233,7 @@ if product == "💳 Loans (7 Types)":
           <!-- Report Header -->
           <div style='background:linear-gradient(135deg,#1e293b,#1e40af);padding:1.6rem 2rem;display:flex;justify-content:space-between;align-items:center;'>
             <div>
-              <span style='color:#93c5fd;font-size:0.78rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;'>KFintech Enterprise Credit Division</span>
+              <span style='color:#93c5fd;font-size:0.78rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;'>Enterprise Credit Division</span>
               <h2 style='color:white;margin:4px 0 0 0;font-size:1.5rem;font-weight:700;'>Credit Underwriting Report</h2>
             </div>
             <div style='text-align:right;'>
@@ -544,7 +544,7 @@ elif product == "💎 AIF HNI Check":
           <!-- Header -->
           <div style='background:linear-gradient(135deg,#1e293b,#312e81);padding:1.6rem 2rem;display:flex;justify-content:space-between;align-items:center;'>
             <div>
-              <span style='color:#a5b4fc;font-size:0.78rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;'>KFintech — SEBI Registered Investment Manager</span>
+              <span style='color:#a5b4fc;font-size:0.78rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;'>SEBI Registered Investment Manager</span>
               <h2 style='color:white;margin:4px 0 0 0;font-size:1.5rem;font-weight:700;'>AIF Investor Eligibility Report</h2>
             </div>
             <span style='background:rgba(255,255,255,0.15);color:white;padding:6px 16px;border-radius:20px;font-size:0.82rem;font-weight:600;'>
@@ -718,7 +718,7 @@ elif product == "🛡️ Term Insurance":
           <!-- Report Header -->
           <div style='background:linear-gradient(135deg,#1e293b,#065f46);padding:1.6rem 2rem;display:flex;justify-content:space-between;align-items:center;'>
             <div>
-              <span style='color:#6ee7b7;font-size:0.78rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;'>KFintech — IRDAI Regulated Life Insurance Division</span>
+              <span style='color:#6ee7b7;font-size:0.78rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;'>IRDAI Regulated Life Insurance Division</span>
               <h2 style='color:white;margin:4px 0 0 0;font-size:1.5rem;font-weight:700;'>Term Insurance Underwriting Assessment</h2>
             </div>
             <span style='background:rgba(255,255,255,0.15);color:white;padding:6px 16px;border-radius:20px;font-size:0.82rem;font-weight:600;'>
@@ -874,7 +874,7 @@ elif product == "📊 EMI Amortization":
           <!-- Header -->
           <div style='background:linear-gradient(135deg,#1e293b,#1e3a8a);padding:1.6rem 2rem;display:flex;justify-content:space-between;align-items:center;'>
             <div>
-              <span style='color:#93c5fd;font-size:0.78rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;'>KFintech — Loan Servicing Division</span>
+              <span style='color:#93c5fd;font-size:0.78rem;font-size:0.78rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;'>Loan Servicing Division</span>
               <h2 style='color:white;margin:4px 0 0 0;font-size:1.5rem;font-weight:700;'>EMI Amortization Report</h2>
             </div>
             <span style='background:rgba(255,255,255,0.15);color:white;padding:6px 16px;border-radius:20px;font-size:0.82rem;font-weight:600;'>
@@ -938,7 +938,7 @@ elif product == "📊 EMI Amortization":
 # === FOOTER ===
 st.markdown("""
 <div style='background: linear-gradient(135deg, #1e293b, #1e40af); color: white; padding: 2.5rem; text-align: center; border-radius: 20px; margin-top: 3rem;'>
-    <h3>KFintech Enterprise Financial Suite v7.2</h3>
+    <h3>Enterprise Financial Suite v7.2</h3>
     <p><strong>Madhu Kumar | AI Business Analyst | RBI/SEBI/IRDA Compliant</strong></p>
     <p>✅ FIXED Rejection Box | ✅ BLOCKED Sources Dropdown | ✅ Full Health Profile Restored</p>
 </div>
